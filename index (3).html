@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MPI IPS Kelas VIII | Kondisi Geografis dan Pelestarian SDA</title>
+<style>
+:root{--navy:#12345a;--blue:#1686d9;--sky:#dff4ff;--white:#fff;--green:#14865c;--gold:#ffd166;--ink:#17324d;--muted:#58728c;--red:#c43b4d}
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Arial,sans-serif;color:var(--ink);background:linear-gradient(145deg,#dff5ff,#f8fcff 48%,#e6f8ef);min-height:100vh}
+.bubbles{position:fixed;inset:0;overflow:hidden;pointer-events:none;z-index:0}.bubbles span{position:absolute;bottom:-90px;border:2px solid #fff9;border-radius:50%;background:#fff3;animation:float 13s linear infinite}.bubbles span:nth-child(1){width:46px;height:46px;left:8%;animation-duration:14s}.bubbles span:nth-child(2){width:24px;height:24px;left:22%;animation-duration:10s;animation-delay:2s}.bubbles span:nth-child(3){width:65px;height:65px;left:77%;animation-duration:16s;animation-delay:1s}.bubbles span:nth-child(4){width:35px;height:35px;left:91%;animation-duration:12s;animation-delay:4s}@keyframes float{to{transform:translateY(-120vh) translateX(35px);opacity:0}}
+.app{position:relative;z-index:1;max-width:1050px;margin:auto;padding:18px}.topbar{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}.school{font-size:.88rem;font-weight:800;color:var(--navy);letter-spacing:.03em}.pill{background:#fff9;border:1px solid #c6e4f4;padding:7px 12px;border-radius:99px;font-size:.82rem;font-weight:700}
+.hero{margin:16px 0;background:linear-gradient(125deg,#075985,#1686d9 60%,#57c6d8);color:white;border-radius:26px;padding:28px;box-shadow:0 14px 35px #0a5d8d24;position:relative;overflow:hidden}.hero:after{content:"🌏";font-size:130px;position:absolute;right:20px;bottom:-18px;opacity:.22}.hero h1{font-size:clamp(1.7rem,4vw,2.8rem);line-height:1.12;margin:9px 0 12px;max-width:730px}.hero p{max-width:700px;margin:0;line-height:1.6}.hero .eyebrow{font-weight:800;text-transform:uppercase;letter-spacing:.12em;font-size:.78rem;color:#d9f7ff}
+.panel{background:#ffffffed;border:1px solid #d3e9f5;border-radius:22px;padding:22px;box-shadow:0 8px 25px #18456b0c;margin:16px 0}.panel h2{color:var(--navy);margin:0 0 12px;font-size:1.35rem}.panel h3{color:#155e75;margin:16px 0 7px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:13px}.tile{border:1px solid #d5e8f4;border-radius:16px;padding:16px;background:linear-gradient(150deg,#fff,#f2faff)}.tile .emoji{font-size:2rem}.tile h3{margin:8px 0 5px}.tile p{margin:0;line-height:1.5;font-size:.95rem}.btn{border:0;border-radius:13px;padding:12px 17px;font-size:1rem;font-weight:800;cursor:pointer;transition:.15s;box-shadow:0 4px 0 #0b3d6540}.btn:hover{transform:translateY(-1px)}.btn:focus-visible,.option:focus-visible{outline:3px solid #ffbd42;outline-offset:3px}.primary{background:#0c70b8;color:white}.secondary{background:#e5f4fc;color:#124b74;border:1px solid #b8dced;box-shadow:none}.success{background:#13865c;color:white}.btnrow{display:flex;gap:10px;flex-wrap:wrap;margin-top:16px}.hidden{display:none!important}.callout{padding:13px 15px;background:#eef8ff;border-left:4px solid #1686d9;border-radius:10px;line-height:1.55}.tag{display:inline-block;background:#e0f2fe;color:#075985;padding:5px 9px;border-radius:99px;font-size:.8rem;font-weight:800;margin:3px 4px 3px 0}
+.qhead{display:flex;justify-content:space-between;gap:10px;align-items:center;flex-wrap:wrap}.progress{height:9px;border-radius:99px;background:#e3eef5;overflow:hidden;margin:14px 0}.progress div{height:100%;width:0;background:linear-gradient(90deg,#0e83c7,#28b783);transition:width .25s}.question{font-size:1.18rem;font-weight:800;line-height:1.45;margin:18px 0}.options{display:grid;gap:10px}.option{display:flex;align-items:flex-start;gap:11px;text-align:left;width:100%;border:2px solid #d8e8f1;background:#fff;border-radius:14px;padding:13px 14px;font-size:1rem;cursor:pointer;color:var(--ink)}.option .letter{flex:0 0 30px;height:30px;border-radius:9px;display:grid;place-items:center;background:#e5f4fc;color:#075985;font-weight:900}.option.selected{border-color:#1686d9;background:#eff9ff}.option.correct{border-color:#13865c;background:#eaf9f1}.option.wrong{border-color:#d44b5b;background:#fff0f1}.feedback{margin-top:14px;padding:14px;border-radius:14px;font-weight:700;line-height:1.5}.feedback.good{background:#e6f8ee;color:#126345}.feedback.bad{background:#fff0f1;color:#9d2636}.small{font-size:.88rem;color:var(--muted)}.score{font-size:2.6rem;font-weight:900;color:#075985}.result-emoji{font-size:4rem}.footer{text-align:center;color:#55738b;font-size:.82rem;padding:16px}
+@media(max-width:600px){.app{padding:11px}.hero,.panel{padding:18px}.hero:after{font-size:85px;right:3px}.btn{width:100%}}
+</style>
+</head>
+<body>
+<div class="bubbles" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
+<div class="app">
+  <div class="topbar"><div class="school">SMPN 12 KOLAKA UTARA • IPS KELAS VIII</div><div class="pill">Fase D · Semester Ganjil · 2026</div></div>
+  <header class="hero">
+    <div class="eyebrow">Media Pembelajaran Interaktif (MPI)</div>
+    <h1>Kondisi Geografis dan Pelestarian Sumber Daya Alam</h1>
+    <p>Kenali keragaman alam Indonesia, manfaat sumber daya alam, dampak eksploitasi berlebihan, dan cara menjaga lingkungan melalui materi ringkas dan kuis interaktif.</p>
+  </header>
+  <main>
+    <section id="home" class="panel">
+      <h2>👋 Selamat datang, Penjelajah Nusantara!</h2>
+      <p>Media ini dirancang untuk membantu peserta didik memahami materi IPS Kelas VIII dan menguji pemahaman melalui 10 soal pilihan ganda.</p>
+      <div class="grid">
+        <div class="tile"><div class="emoji">🧭</div><h3>Identitas Media</h3><p><b>Penyusun:</b> Armawati, S.Pd.<br><b>Sekolah:</b> SMPN 12 Kolaka Utara<br><b>Mapel:</b> Ilmu Pengetahuan Sosial (IPS)<br><b>Kelas:</b> VIII / Semester 1<br><b>Alokasi pada RPM:</b> 2 × 40 menit</p></div>
+        <div class="tile"><div class="emoji">🎯</div><h3>Tujuan Pembelajaran</h3><p>1. Mendeskripsikan keragaman alam serta letak geografis dan astronomis Indonesia.<br>2. Menganalisis potensi dan pemanfaatan SDA hutan, tambang, dan kemaritiman.<br>3. Mengidentifikasi dampak eksploitasi berlebihan terhadap daya dukung lingkungan.<br>4. Merancang pelestarian SDA dan peningkatan kualitas SDM.</p></div>
+        <div class="tile"><div class="emoji">🕹️</div><h3>Cara menggunakan</h3><p>Baca materi, tekan tombol kuis, lalu pilih satu jawaban. Jawaban benar mendapat tepuk tangan dan pujian 👏; jawaban salah mendapat emotikon sedih 😢 dan petunjuk belajar.</p></div>
+      </div>
+      <div class="btnrow"><button class="btn primary" onclick="showSection('materi')">📚 Mulai Belajar</button><button class="btn success" onclick="startQuiz()">📝 Mulai Kuis 10 Soal</button></div>
+    </section>
+    <section id="materi" class="panel hidden">
+      <h2>📚 Materi Inti</h2>
+      <div class="grid">
+        <article class="tile"><div class="emoji">🌏</div><h3>1. Letak dan Keragaman Alam</h3><p>Letak geografis adalah posisi suatu wilayah dibandingkan wilayah lain. Indonesia berada di antara Benua Asia dan Australia serta Samudra Hindia dan Pasifik. Letak astronomis ditentukan oleh garis lintang dan garis bujur. Bentuk kepulauan, iklim, relief, dan kondisi wilayah membuat alam Indonesia beragam.</p></article>
+        <article class="tile"><div class="emoji">🌳</div><h3>2. Sumber Daya Hutan</h3><p>Hutan menyediakan kayu, hasil hutan nonkayu, habitat makhluk hidup, penyimpan karbon, pengatur tata air, dan perlindungan tanah. Penebangan harus dikelola dengan aturan dan disertai pemulihan hutan.</p></article>
+        <article class="tile"><div class="emoji">⛏️</div><h3>3. Sumber Daya Tambang</h3><p>Contohnya nikel, batu bara, minyak bumi, gas alam, dan emas. Pertambangan mendukung kegiatan ekonomi, tetapi jika tidak dikelola dengan baik dapat menyebabkan kerusakan lahan, pencemaran air, dan hilangnya habitat.</p></article>
+        <article class="tile"><div class="emoji">🐟</div><h3>4. Sumber Daya Kemaritiman</h3><p>Laut dan pesisir menyediakan ikan, rumput laut, garam, jalur transportasi, serta potensi wisata. Pemanfaatannya perlu menjaga terumbu karang, mangrove, kualitas air, dan keberlanjutan populasi ikan.</p></article>
+        <article class="tile"><div class="emoji">⚠️</div><h3>5. Dampak Eksploitasi Berlebihan</h3><p>Eksploitasi yang melampaui kemampuan alam untuk pulih dapat memicu banjir, longsor, erosi, pencemaran, berkurangnya keanekaragaman hayati, serta menurunnya ketersediaan sumber daya untuk generasi berikutnya.</p></article>
+        <article class="tile"><div class="emoji">♻️</div><h3>6. Pelestarian SDA dan SDM</h3><p>Upaya pelestarian antara lain reboisasi, tebang pilih, reklamasi dan pemulihan lahan tambang, pengelolaan limbah, perlindungan mangrove, penangkapan ikan berkelanjutan, penghematan sumber daya, pendidikan, dan pelatihan keterampilan.</p></article>
+      </div>
+      <div class="callout" style="margin-top:15px"><b>Ingat:</b> Sumber daya alam perlu dimanfaatkan untuk kesejahteraan manusia, tetapi daya dukung lingkungan harus tetap dijaga. SDM yang berpengetahuan dan terampil membantu pengelolaan SDA menjadi lebih bertanggung jawab.</div>
+      <div class="btnrow"><button class="btn secondary" onclick="showSection('home')">← Beranda</button><button class="btn success" onclick="startQuiz()">Saya Siap Kuis →</button></div>
+    </section>
+    <section id="quiz" class="panel hidden">
+      <div class="qhead"><h2>📝 Kuis Pilihan Ganda</h2><span id="counter" class="pill">Soal 1 dari 10</span></div>
+      <div class="progress"><div id="progressbar"></div></div>
+      <div id="question" class="question"></div>
+      <div id="options" class="options"></div>
+      <div id="feedback" class="feedback hidden" aria-live="polite"></div>
+      <div class="btnrow"><button id="nextBtn" class="btn primary hidden" onclick="nextQuestion()">Soal Berikutnya →</button><button class="btn secondary" onclick="showSection('materi')">Baca Materi</button></div>
+    </section>
+    <section id="result" class="panel hidden">
+      <div style="text-align:center">
+        <div id="resultEmoji" class="result-emoji">🏆</div><h2 id="resultTitle">Kuis Selesai!</h2><div class="score"><span id="score">0</span>/100</div>
+        <p id="resultMessage"></p><p><b>Jawaban benar:</b> <span id="correctCount">0</span> dari 10 soal</p>
+        <div class="btnrow" style="justify-content:center"><button class="btn success" onclick="startQuiz()">🔁 Ulangi Kuis</button><button class="btn secondary" onclick="showSection('materi')">📚 Pelajari Materi Lagi</button><button class="btn secondary" onclick="showSection('home')">⌂ Beranda</button></div>
+      </div>
+    </section>
+  </main>
+  <div class="footer">MPI IPS • Kondisi Geografis dan Pelestarian Sumber Daya Alam • Disusun oleh Armawati, S.Pd.</div>
+</div>
+<script>
+const questions = [
+{q:"Indonesia secara geografis terletak di antara dua benua, yaitu …",o:["Asia dan Eropa","Asia dan Australia","Australia dan Afrika","Eropa dan Amerika"],a:1,why:"Indonesia berada di antara Benua Asia dan Benua Australia."},
+{q:"Letak astronomis suatu wilayah ditentukan berdasarkan …",o:["jenis tanah dan batuan","batas negara tetangga","garis lintang dan garis bujur","jumlah penduduk"],a:2,why:"Letak astronomis ditentukan oleh koordinat garis lintang dan garis bujur."},
+{q:"Contoh sumber daya alam kemaritiman adalah …",o:["ikan dan rumput laut","batu bara dan emas","kayu dan rotan saja","padi dan jagung"],a:0,why:"Ikan dan rumput laut merupakan contoh sumber daya dari laut."},
+{q:"Salah satu manfaat hutan bagi lingkungan adalah …",o:["meningkatkan erosi","mengurangi resapan air","menjadi habitat makhluk hidup dan menjaga tata air","menyebabkan pencemaran udara"],a:2,why:"Hutan menyediakan habitat, membantu menyimpan karbon, dan menjaga tata air serta tanah."},
+{q:"Kegiatan pertambangan yang tidak dikelola dengan baik dapat menyebabkan …",o:["air selalu lebih bersih","kerusakan lahan dan pencemaran air","bertambahnya semua habitat alami","hilangnya seluruh risiko bencana"],a:1,why:"Kegiatan tambang yang tidak bertanggung jawab dapat merusak lahan dan mencemari air."},
+{q:"Penebangan hutan secara berlebihan di daerah lereng dapat meningkatkan risiko …",o:["longsor dan erosi","terumbu karang tumbuh","air laut menjadi tawar","kesuburan selalu meningkat"],a:0,why:"Akar pohon membantu mengikat tanah; hilangnya tutupan hutan meningkatkan erosi dan risiko longsor."},
+{q:"Apa yang dimaksud dengan daya dukung lingkungan dalam konteks pemanfaatan SDA?",o:["Kemampuan manusia mengambil semua sumber daya","Kemampuan lingkungan mendukung kehidupan dan aktivitas secara berkelanjutan","Jumlah alat berat di pertambangan","Kecepatan menjual hasil tambang"],a:1,why:"Daya dukung berkaitan dengan kemampuan lingkungan menopang kehidupan dan aktivitas tanpa mengalami kerusakan yang melampaui batas."},
+{q:"Tindakan yang tepat untuk membantu melestarikan hutan adalah …",o:["membakar hutan untuk membuka lahan","menebang semua pohon sekaligus","melakukan reboisasi dan pengelolaan hutan berkelanjutan","membuang sampah ke sungai"],a:2,why:"Reboisasi dan pengelolaan berkelanjutan membantu memulihkan serta menjaga fungsi hutan."},
+{q:"Contoh pemanfaatan laut yang lebih berkelanjutan adalah …",o:["menggunakan cara tangkap yang merusak terumbu karang","menangkap semua ikan kecil","membuang limbah ke laut","menjaga mangrove dan menggunakan cara tangkap yang ramah lingkungan"],a:3,why:"Mangrove dan cara tangkap ramah lingkungan membantu menjaga ekosistem serta sumber penghidupan pesisir."},
+{q:"Mengapa peningkatan kualitas SDM penting dalam pengelolaan SDA?",o:["agar sumber daya cepat habis","agar masyarakat dapat mengelola sumber daya dengan pengetahuan dan keterampilan yang baik","agar lingkungan tidak perlu dilindungi","agar semua kegiatan ekonomi dihentikan"],a:1,why:"Pendidikan dan keterampilan membantu masyarakat mengambil keputusan yang lebih efektif dan bertanggung jawab."}
+];
+let index=0, correct=0, answered=false;
+function showSection(id){document.querySelectorAll('main section').forEach(s=>s.classList.add('hidden'));document.getElementById(id).classList.remove('hidden');window.scrollTo({top:0,behavior:'smooth'});}
+function playApplause(){
+  try{const C=window.AudioContext||window.webkitAudioContext;if(!C)return;const ctx=new C();const notes=[660,880,990,880,1046];notes.forEach((f,i)=>{let o=ctx.createOscillator(),g=ctx.createGain();o.type='triangle';o.frequency.value=f;g.gain.setValueAtTime(.0001,ctx.currentTime+i*.11);g.gain.exponentialRampToValueAtTime(.14,ctx.currentTime+i*.11+.025);g.gain.exponentialRampToValueAtTime(.0001,ctx.currentTime+i*.11+.16);o.connect(g);g.connect(ctx.destination);o.start(ctx.currentTime+i*.11);o.stop(ctx.currentTime+i*.11+.18)});setTimeout(()=>ctx.close(),1200);}catch(e){}
+}
+function startQuiz(){index=0;correct=0;answered=false;showSection('quiz');renderQuestion();}
+function renderQuestion(){
+ answered=false;const q=questions[index];document.getElementById('counter').textContent=`Soal ${index+1} dari ${questions.length}`;document.getElementById('progressbar').style.width=`${index/questions.length*100}%`;document.getElementById('question').textContent=q.q;document.getElementById('feedback').className='feedback hidden';document.getElementById('nextBtn').classList.add('hidden');
+ const wrap=document.getElementById('options');wrap.innerHTML='';
+ q.o.forEach((opt,i)=>{const b=document.createElement('button');b.className='option';b.innerHTML=`<span class="letter">${"ABCD"[i]}</span><span>${opt}</span>`;b.onclick=()=>chooseAnswer(i,b);wrap.appendChild(b);});
+}
+function chooseAnswer(choice,button){
+ if(answered)return;answered=true;const q=questions[index];const opts=[...document.querySelectorAll('.option')];opts.forEach((b,i)=>{b.disabled=true;if(i===q.a)b.classList.add('correct')});const f=document.getElementById('feedback');
+ if(choice===q.a){correct++;button.classList.add('correct');f.className='feedback good';f.innerHTML='👏🎉 <b>Hebat! Jawaban benar!</b> Tepuk tangan untukmu!<br>'+q.why;playApplause();}
+ else{button.classList.add('wrong');f.className='feedback bad';f.innerHTML='😢 <b>Belum tepat, tetap semangat!</b><br>Emotikon sedih 😢. Jawaban yang benar: <b>'+ "ABCD"[q.a]+'. '+q.o[q.a]+'</b><br>'+q.why;}
+ document.getElementById('progressbar').style.width=`${(index+1)/questions.length*100}%`;document.getElementById('nextBtn').textContent=index===questions.length-1?'Lihat Hasil 🏆':'Soal Berikutnya →';document.getElementById('nextBtn').classList.remove('hidden');
+}
+function nextQuestion(){if(!answered)return;if(index<questions.length-1){index++;renderQuestion()}else{showResult()}}
+function showResult(){showSection('result');document.getElementById('score').textContent=correct*10;document.getElementById('correctCount').textContent=correct;let emoji,title,msg;if(correct>=8){emoji='🏆';title='Luar biasa!';msg='Kamu memahami materi dengan sangat baik. Terus jaga semangat dan kepedulian terhadap lingkungan!'}else if(correct>=6){emoji='🌟';title='Bagus, terus tingkatkan!';msg='Pemahamanmu sudah cukup baik. Baca kembali materi yang belum dikuasai lalu coba lagi.'}else{emoji='💪';title='Jangan menyerah!';msg='Belajar adalah proses. Pelajari kembali materi inti dan ulangi kuis untuk meningkatkan hasilmu.'}document.getElementById('resultEmoji').textContent=emoji;document.getElementById('resultTitle').textContent=title;document.getElementById('resultMessage').textContent=msg;}
+</script>
+</body>
+</html>
